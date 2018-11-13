@@ -1,0 +1,16 @@
+1. requires php > 7.0
+2. git clone https://github.com/dev-klaus/note_app.git
+3. create database notes_app
+3. set:
+		DB_CONNECTION=mysql
+		DB_HOST=127.0.0.1
+		DB_PORT=3306
+		DB_DATABASE=notes_app
+		DB_USERNAME=root
+		DB_PASSWORD=
+		in .env
+4. open console in checkout folder and run: 
+		> composer install
+5. run: 
+		> php artisan migrate 
+	to create the tables
